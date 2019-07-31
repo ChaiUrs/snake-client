@@ -1,4 +1,9 @@
 
 const { connect } = require('./client');
-console.log('Connecting to game server...');
-connect();
+const {setupInput} = require('./input');
+
+console.log('Connecting to the game server...');
+
+//send the connection object returned from connect() into our setupInput() function.
+
+setupInput(connect());

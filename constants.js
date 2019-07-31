@@ -9,5 +9,5 @@ module.exports = {
   MOVE_DOWN_KEY: "Move: down",
   MOVE_LEFT_KEY: "Move: left",
   MOVE_RIGHT_KEY: "Move: right",
-  SPECIAL_CHARACTER: "Say: sssss!"
+  SPECIAL_CHARACTER: "Say: sssss"
 };

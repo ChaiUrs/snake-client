@@ -11,7 +11,7 @@ const connect = () => {
     port: PORT
   });
   
-  conn.setEncoding('utf8'); // interpret incoming data as text
+  conn.setEncoding('utf8');   // interpret incoming data as text
   
   conn.on('connect', () => {
   console.log('Successfully connected to game server'); //make a connection
